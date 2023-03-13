@@ -1,0 +1,86 @@
+.exercises {
+  height: 100vh;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.exercise-top-row {
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+  padding-top: 50px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 5px solid black;
+}
+
+.exercise-top-row .selects {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.exercise-top-row .ant-select {
+  width: 200px;
+  margin: 15px;
+}
+.ant-select-selection-item-remove {
+  margin-top: -6px;
+}
+.exercise-header {
+  text-align: center;
+}
+.gutter-row {
+  background-color: rgb(237, 234, 234);
+  margin: 10px 0;
+  border-radius: 10px;
+}
+.exercise-data-container {
+  margin: auto;
+  width: 90%;
+  background-color: rgb(255, 255, 255);
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+}
+.gutter-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.exercise-img {
+  border-radius: 20px;
+  width: 20em;
+  padding: 15px;
+}
+.exercise-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 95%;
+}
+.exercise-info h5 {
+  font-size: 1em;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+.error-message h1 {
+  text-align: center;
+  margin-top: 100px;
+}
+.not-found-img {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  width: 40em;
+  opacity: 0.4;
+}

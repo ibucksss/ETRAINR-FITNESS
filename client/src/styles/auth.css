@@ -1,0 +1,119 @@
+.login,
+.register {
+  display: flex;
+  flex-direction: row;
+  font-family: "Roboto", sans-serif;
+}
+.login-left,
+.register-right {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.login-header {
+  flex-direction: column;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.login-header h3 {
+  color: #333;
+  font-size: 2em;
+}
+.login-left .ant-spin-dot {
+  position: absolute;
+  top: 60%;
+}
+.register-right .ant-spin-dot {
+  position: absolute;
+  top: 70% !important;
+  left: 76%;
+}
+.login-header p {
+  color: #969393;
+  opacity: 0.6;
+}
+.login-left .form,
+.register .form {
+  width: 60%;
+}
+.form-item {
+  height: 50px;
+}
+.login-right,
+.register-left {
+  width: 60%;
+  background-image: url("../assets/loginbg.svg");
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.login-right img {
+  width: 70%;
+  height: 60%;
+}
+.statement {
+  font-size: 3em;
+  color: #fff;
+  font-weight: 400;
+  text-align: center;
+}
+.statement span {
+  color: #f72585;
+}
+.register-left img {
+  width: 50%;
+  height: 50%;
+}
+.link-container {
+  display: flex;
+  flex-direction: column;
+}
+.submit-btn {
+  width: 30%;
+  height: 30px;
+  background-color: #4361ee;
+  color: #fff;
+  margin: auto;
+  margin-top: 40px;
+  border: none;
+  border-radius: 5px;
+}
+.header {
+  text-align: center;
+}
+.header h5 {
+  font-size: 1.5em;
+}
+@media screen and (max-width: 1000px) {
+  .login-right,
+  .register-left {
+    display: none;
+  }
+  .login-left,
+  .register-right {
+    background-image: url("../assets/loginbg.svg");
+    background-size: cover;
+    width: 100%;
+  }
+  .form {
+    background-color: #fff;
+    width: 80% !important;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 20px;
+  }
+  .login-header {
+    background-color: #fff;
+    width: 80%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+}

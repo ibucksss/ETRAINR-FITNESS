@@ -1,0 +1,151 @@
+.top-row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  border-bottom: 3px solid black;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .bg-image {
+    display: none;
+  }
+  .top-row {
+    width: 95%;
+  }
+  .table {
+    overflow-y: scroll !important;
+    overflow-x: scroll !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .top-right {
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .type-select {
+    margin: 0 100px;
+    padding: none;
+  }
+}
+
+.date-select,
+.workout-type-select {
+  font-size: 1.2em;
+}
+
+.date-select h6,
+.workout-type-select h6 {
+  margin-bottom: 10px;
+}
+
+.top-left div {
+  margin: 0 5px 5px 0;
+}
+
+.workout-type-select {
+  width: 500px !important;
+}
+
+.workout-type-select .ant-select {
+  width: 100px;
+}
+
+.ant-select-selector {
+  width: 100% !important;
+  background-color: red;
+}
+
+.top-left {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+}
+
+.top-right {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 50%;
+}
+
+.home-btn {
+  font-size: 0.8em !important;
+  background-color: #211aa6 !important;
+  border: none !important;
+  padding: 0;
+  margin: 0;
+}
+
+.bg-image img {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  opacity: 0.2;
+  z-index: 1;
+}
+
+.no-img {
+  display: none;
+  opacity: 0;
+}
+
+.top-right .anticon {
+  margin: 10px;
+  font-size: 1.5em;
+}
+
+.anticon {
+  font-size: 1.5em;
+  margin: 10px;
+}
+
+.top-right .anticon:hover {
+  color: #211aa6;
+}
+
+.type-select {
+  margin-right: 60px;
+  border: 0.5px solid black;
+}
+.active-icon {
+  color: #4361ee;
+}
+.inactive-icon {
+  color: #333;
+}
+.card {
+  padding: 15px;
+  background-color: #dcdbdb;
+  border-radius: 10px;
+  margin: 10px auto !important;
+}
+
+.card h4 {
+  font-size: 2em;
+}
+
+.card h5 {
+  font-size: 1.5em;
+} /*# sourceMappingURL=test.css.map */
+.cat-card {
+  margin: auto;
+}
+.card-grid {
+  width: 95%;
+  margin: auto;
+}
+.cat-card h5 {
+  font-size: 1.3em;
+  margin: 10px;
+}
+.main-content .ant-spin-dot {
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+}
